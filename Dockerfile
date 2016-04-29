@@ -1,6 +1,6 @@
 FROM daocloud.io/php:5.6-cli
 
-EXPOSE 80;
+EXPOSE 7012;
 COPY . /app
 WORKDIR /app
 CMD [ "php", "./hello.php" ]
